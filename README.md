@@ -8,5 +8,6 @@ Header is stuck to the top of page and doesn't scroll.
 https://djdevj.github.io/day-scheduler/
 ## Screenshot
 
+![_C__Users_vagab_bootcamp_day-scheduler_index html](https://user-images.githubusercontent.com/120237391/211882528-4b493402-80cb-4cc3-821c-059ca9b0f7dd.png)
 
-![djdevj github io_day-scheduler_](https://user-images.githubusercontent.com/120237391/211728203-bdf656ff-199d-4f05-87a0-c79b5a0084a3.png)
+
