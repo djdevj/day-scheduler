@@ -31,17 +31,17 @@ body {
   }
   
   .past {
-    background-color: #5d72ce;
+    background-color: #637ff8;
     color: rgb(255, 255, 255);
   }
   
   .present {
-    background-color: #000000;
-    color: white;
+    background-color: #93f090;
+    color: rgb(5, 5, 5);
   }
   
   .future {
-    background-color: #2729a8;
+    background-color: #3234a8;
     color: white;
   }
   

@@ -10,24 +10,26 @@ $(document).ready(function() {
     $(".saveBtn").on("click", function () {
         
         var text = $(this).siblings(".description").val(); 
+        console.log(text)
         var time = $(this).closest(".time-block").attr("id"); 
-
+        console.log("time:",time)
         //set items in local storage.
         localStorage.setItem(time, text);
+
     });
 // When the text is commited to the local storgage, it will show up automatically upon refresh (stay put)
     // stay-put = (text moved to local storage, text displayed in place upon screen refresh)
     
-    $("#hour8 .description").val(localStorage.getItem("hour8"));
-    $("#hour9 .description").val(localStorage.getItem("hour9"));
-    $("#hour10 .description").val(localStorage.getItem("hour10"));
-    $("#hour11 .description").val(localStorage.getItem("hour11"));
-    $("#hour12 .description").val(localStorage.getItem("hour12"));
-    $("#hour13 .description").val(localStorage.getItem("hour13"));
-    $("#hour14 .description").val(localStorage.getItem("hour14"));
-    $("#hour15 .description").val(localStorage.getItem("hour15"));
-    $("#hour16 .description").val(localStorage.getItem("hour16"));
-    $("#hour17 .description").val(localStorage.getItem("hour17"));
+    $("#hour-8 .description").val(localStorage.getItem("hour-8"));
+    $("#hour-9 .description").val(localStorage.getItem("hour-9"));
+    $("#hour-10 .description").val(localStorage.getItem("hour-10"));
+    $("#hour-11 .description").val(localStorage.getItem("hour-11"));
+    $("#hour-12 .description").val(localStorage.getItem("hour-12"));
+    $("#hour-13 .description").val(localStorage.getItem("hour-13"));
+    $("#hour-14 .description").val(localStorage.getItem("hour-14"));
+    $("#hour-15 .description").val(localStorage.getItem("hour-15"));
+    $("#hour-16 .description").val(localStorage.getItem("hour-16"));
+    $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 
     // Make it so that the colors of the form change color based on the time of day matching the form (past, present future)
         // Change color of the form depending on the hour of the day
